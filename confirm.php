@@ -53,13 +53,14 @@ if (registrasi($_POST) > 0) {
                     <hr />
                     <div class="row justify-content-center">
                         <div class="col-10 text-center mt-3">
-                            <p>Terima kasih telah mendaftar, untuk langkah selanjutnya silahkan menghubungi panitia melalui tombol di bawah</p>
+                            <p>Terima kasih telah mendaftar, untuk langkah selanjutnya silahkan menghubungi panitia melalui tombol atau nomor di bawah</p>
+                            <p>+62 812-7374-7168 (Mayang)</p>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-sm-7 text-center">
                             <!-- TODO: Request link to join grup from Nafisa -->
-                            <a href="https://chat.whatsapp.com/H90nvOiSg2tJrtAkDahXDY">
+                            <a href="https://wa.me/6281273747168">
                                 <button class="btn btn-success mt-3 p-2">
                                     <div class="row d-flex justify-content-center align-items-center">
                                         <div class="col-1">

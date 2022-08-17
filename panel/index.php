@@ -106,11 +106,11 @@ $pendaftar = query($query);
                             <td><?= $d['email'] ?></td>
                             <td><?= $d['cabang_lomba'] ?></td>
                             <td><?= $d['jenis_peserta'] ?></td>
-                            <td class="row gx-1">
-                                <a target="_blank" class="w-25 col btn btn-primary btn-sm d-flex justify-content-center align-items-center" href="../upload/<?= $d['cabang_lomba'] ?>/<?= $d['bukti_pembayaran'] ?>">
+                            <td class="row">
+                                <a target="_blank" class="mx-1 w-25 col btn btn-primary btn-sm d-flex justify-content-center align-items-center" href="../upload/<?= $d['cabang_lomba'] ?>/<?= $d['bukti_pembayaran'] ?>">
                                     <ion-icon name="receipt-outline" size="small"></ion-icon>
                                 </a>
-                                <a class="w-25 col btn btn-danger btn-sm d-flex justify-content-center align-items-center" href="delete.php?id=<?= $d['id'] ?>">
+                                <a class="mx-1 w-25 col btn btn-danger btn-sm d-flex justify-content-center align-items-center" href="delete.php?id=<?= $d['id'] ?>" onclick="return confirm('Yakin ingin menghapus data?')">
                                     <ion-icon name="trash-outline"></ion-icon>
                                 </a>
                             </td>
